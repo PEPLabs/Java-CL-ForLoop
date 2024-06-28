@@ -31,9 +31,10 @@ public class Lab {
      *          i++
      *      within the for loop block, let's have the following code:
      *          buildingString = buildingString + i + " ";
-     *      this will add the current value of i to an already existing variable 'sum', so that we can get the sum of
-     *      all numbers that fall between start and end.
-     *      you can consult any for loop example to resolve syntax issues.
+     *      This will concatenate the current value of i to an already existing variable 'buildingString', so that after the loop ends,
+     *      we'll have a String containing every value of i separated by a space.
+     * 
+     *      You can consult any for loop example to resolve syntax issues.
      *
      *      @param start the value of i where the for loop should start.
      *      @param end the value of i where the for loop should end (provided that the for loop is incremented with i++)
